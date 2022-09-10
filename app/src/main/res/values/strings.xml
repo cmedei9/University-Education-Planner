@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">C196MobileApplication</string>
+    <string name="title_activity_add_terms_ui">AddTermsUI</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string-array name="assessmentTypes">
+        <item>Objective</item>
+        <item>Performance</item>
+    </string-array>
+
+    <string-array name="courseStatus">
+        <item>In-Progress</item>
+        <item>Completed</item>
+        <item>Dropped</item>
+        <item>Planned to Take</item>
+    </string-array>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.c196mobileapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="WGU C196 Education Planner"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.C196MobileApplication">
+        <activity
+            android:name=".UI.MainNoteView"
+            android:label="Notes"
+            android:exported="false" />
+        <activity
+            android:name=".UI.ManagerCourse"
+            android:label="Course Manager"
+            android:exported="false" />
+        <activity
+            android:name=".UI.ManagerAssessment"
+            android:label="Assessment Manager"
+            android:exported="false" />
+        <activity
+            android:name=".UI.ManagerTerm"
+            android:label="Term Manager"
+            android:exported="false" />
+        <activity
+            android:name=".UI.MainCourseView"
+            android:exported="false"
+            android:label="Courses"
+            android:parentActivityName=".UI.MainActivityUI" />
+        <activity
+            android:name=".UI.MainTermView"
+            android:exported="false"
+            android:label="Terms"
+            android:parentActivityName=".UI.MainActivityUI" />
+        <activity
+            android:name=".UI.MainAssessmentView"
+            android:exported="false"
+            android:label="Assessments"
+            android:parentActivityName=".UI.MainActivityUI" />
+        <activity
+            android:name=".UI.MainActivityUI"
+            android:exported="true"
+            android:label="Home">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
