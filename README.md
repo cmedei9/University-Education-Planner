@@ -11,4 +11,6 @@ This is a simple multi-screen Android application used for students to keep trac
 
 # Compatibility
 
+Developed entirely in Android Studio Arctic Fox | 2020.3.1 Patch 4
+
 The minimum SDK is 26 (Android 8.0 - Oreo) and the target SDK is 33 (Android 13.0 - Tiramisu). The decision was made based on compatibility, as according to Android Studio the Oreo SDK is supported on approximately 88.2% of Android devices. This was the highest opportunity for compatibility available.
